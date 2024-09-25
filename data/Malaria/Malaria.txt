@@ -1,0 +1,245 @@
+0:01
+Doctor: Hello.
+
+0:02
+Patient: Hello.
+
+0:03
+Doctor: Good afternoon.
+
+0:04
+Patient: Good afternoon.
+
+0:05
+Doctor: I'm Doctor Yemi and I'll be the one attending to you this afternoon. All right, So can you tell me what brought you to the hospital?
+
+0:12
+Patient: I've been having..erm… My body has been feeling hot for a while now, As in very hot.
+
+0:19
+Doctor: Oh, I'm so sorry to hear about that. So I'd like to know more about this so I would know how best to, you know, help you. So when did it start?
+
+0:28
+Patient: Started a week ago.
+
+0:30
+Doctor: Was is sudden in onset or it was gradual?
+
+0:32
+Patient: It was gradual.
+
+0:33
+Doctor: And how has it been since then, has it progressed, has it gotten better Or It has gotten worse?
+
+0:38
+Patient: It has gotten worse.
+
+0:39
+Doctor: OK, aside from this high body temperature, do you have any other associated symptom?
+
+0:44
+Patient: Yes. I've been having this very bad headache.
+
+0:46
+Doctor: OK.
+
+0:47
+Patient: Body pains.
+
+0:48
+Doctor: OK 
+
+Patient And sometimes I shiver.
+
+0:51
+Doctor: OK, OK. So, all these symptoms now, did it starts with the high body temperature? 
+Patient: yes. And it… especially it gets worse at night.
+
+1:01
+Doctor: At night, OK, OK, so you feel like… what of during the day? How… How do you feel during the day?
+
+1:06
+Patient: During the day erm… I vomit like I vomited, for example today now, I vomited like four times.
+
+1:12
+Doctor: OK 
+
+Patient: this morning.
+
+1:13
+Doctor: OK, so the headache, what part of your head are you have… having this headache?
+
+Patient: the… my… front part of my head 
+
+Doctor: front part of your head, I will… do you Describe It like… any associated eye pain.
+
+1:24
+Patient: No.
+
+1:25
+Doctor: OK.
+I would like to ask you, when was your last menstrual period?
+
+Patient: Hmm, last month.
+
+1:32
+Doctor: OK. So, you've not you've not had a missed.
+
+1:34
+Patient: Yeah.
+
+1:35
+Doctor: OK, Alright. Thank you very much. So aside from this I'd like to erm…So what have you done since it started so far?
+
+Patient: I haven't done… I've… I’ve only taken Paracetamol
+
+1:43
+Doctor: You’ve only taken para…, and any, any, any relief with paracetamol?
+
+Patient: just for a short while.
+
+1:49
+Doctor: OK. OK. OK. So erm, I'd just like to ask some other systemic questions to be sure that everything is fine with other systems.
+
+1:58
+Doctor: So, from… any uhm… neck pain or stiffness?
+
+2:02
+Patient: No.
+
+2:02
+Doctor: Any cough or chest pain?
+
+2:04
+Patient: No.
+
+2:04
+Doctor: Have you been going to... have you… any urinary symptoms?
+
+2:08
+Patient: No.
+
+2:09
+Doctor: Any diarrhea?
+
+2:09
+Patient: No.
+
+2:10
+Doctor: OK. So, like from what you told me so far you said you've been having high body temperature.
+
+2:16
+Patient: Yes
+
+Doctor: There was headache and body pain and you, Shiver, for about a week now, am I correct? And also this happens more in the evenings. OK. And there's also been vomiting. How about  your appetite?
+
+2:30
+Doctor: Has your appetite been fine?
+
+2:32
+Patient: It has reduced. 
+
+Doctor: Reduced appetite OK, OK. So are you being erm… I would like to ask for your past medical history now. Are you been managed for any medical condition?
+
+2:43
+Patient: No.
+
+2:43
+Doctor: In the past?
+
+2:44
+Doctor: Are you on any routine medications?
+
+2:48
+Patient: No.
+
+2:48
+Doctor: Do you drink alcohol?
+
+2:49
+Patient: No.
+
+2:50
+Doctor: Do you smoke cigarettes?
+
+2:50
+Patient: No.
+
+2:51
+Doctor: Have you had surgery before, in the past?
+
+2:53
+Patient: No.
+
+2:53
+Doctor: Have you ever been admitted in the hospital?
+
+2:55
+Patient: No.
+
+2:56
+Doctor: Have you ever been transfused with blood?
+
+2:57
+Patient: No.
+
+2:58
+Doctor: OK. Erm… Are you married?
+
+3:01
+Patient: No.
+
+3:01
+Doctor: OK. Are you sexually active?
+
+3:03
+Patient: No.
+
+3:03
+Doctor: OK, that's that's that's that's OK. And what do you do for work?
+
+3:07
+Patient: I'm a student.
+
+3:09
+Doctor: Oh, OK. Where do you school?
+
+3:10
+Patient: Unilag
+
+3:12
+Docotr: OK, now I'm most… I would like to ask, for this erm… consultation, Are you paying out of pocket or you’re under insurance, 
+
+Patient: I'm paying out of pocket.
+
+3:22
+Doctor: And how are your finances like, you know?
+
+Patient: well, depend… I’m depending on my parents.
+
+3:30
+Doctor: OK, OK, OK, alright that's that's very good. So erm… asides this is there any other thing that you think it's important that I might have missed out in the course of this conversation.
+
+3:41
+Patient: None for now.
+
+3:42
+Doctor: OK. Alright. Thank you very much. So, I'd like to examine you now I'll do a general examination and for… and focus and systemic examinations. So, well from what you've told me so far let's just you know do a quick recap, you said you've been having headache, body pains, and fever for about a week, with vomiting. so and this… it occurs more in the evenings. So, I'm thinking you're having a condition, you're having malaria. So, but what what would need to do is we'll need to confirm. We'll take blood samples to the lab, we'll do erm… malaria parasite test. So, if it comes out positive, we'll give you medications for malaria, but for now we'd give you paracetamol for the fever and the erm… headache and the body pains. So, we’d also like you to, you know,  bed rest if you need erm… notes for school to maybe exempt you from school, we can also issue that for you. Do you have any other thing you’d like you know like me to help with? So I'll direct you to the lab, where they’ll do the test and while we await the test results alright. Have… any other thing?
+
+4:54
+Patient: No.
+
+4:55
+Doctor: Alright, Thank you so much for your time.
+
+4:56
+Patient: Thank you very much.
+
+4:57
+Doctor: Alright, Have a lovely day.
+
+4:58
+Patient: You too.
+
+4:58
+Doctor: Bye.
