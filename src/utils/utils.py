@@ -11,6 +11,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("--pretrained_model_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str, required=True)
+    parser.add_argument("--task", type=str, required=True)
     parser.add_argument("--batch_size", type=int, required=False)
     
     args = parser.parse_args()
@@ -26,7 +27,7 @@ def extract_text_transcript(file_path):
     cleaned_content = ' '.join(cleaned_content.split())
     return cleaned_content
 
-def prepare_data(data_dir):
+def prepare_asr_data(data_dir):
     audio_paths = []
     texts = []
 
@@ -54,7 +55,7 @@ def prepare_data(data_dir):
 def write_results(data, args, score):
     model_dir = args.model_name.replace("/", "_")
     os.makedirs(f"results/{model_dir}", exist_ok=True)
-    results_fname = f"results/{model_dir}/{model_dir}-wer_{score:.4f}_{len(data)}.csv"
+    results_fname = f"results/{model_dir}/{model_dir}_{args.task}-wer_{score:.4f}_{len(data)}.csv"
     data.to_csv(results_fname, index=False)
     logger.info(f"Results saved to: {results_fname}")
     return results_fname

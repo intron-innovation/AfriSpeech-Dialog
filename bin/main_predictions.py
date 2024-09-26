@@ -4,7 +4,7 @@ import logging
 import gc
 import torch
 from src.models.whisper import Whisper
-from src.utils.utils import parse_arguments, prepare_data, write_results
+from src.utils.utils import parse_arguments, prepare_asr_data, write_results
 from src.utils.text_processing import post_process_preds
 from transformers import set_seed
 
@@ -23,9 +23,6 @@ def main():
     gc.collect()
     torch.cuda.empty_cache()
 
-    logger.info(f"Preprocessing data at {args.data_path}")
-    data = prepare_data(args.data_dir)
-
     logger.info(f"Loading model from {args.pretrained_model_path}")
     # please define your own model class
     if "whisper" in args.pretrained_model_path:
@@ -36,12 +33,17 @@ def main():
         )
     logger.info("Model loaded successfully")
 
-    transcripts = model.transcribe(list(data['audio_path']), batch_size=args.batch_size)
-    data['hypothesis'] = transcripts
+    logger.info(f"Preprocessing data at {args.data_path}")
+    
+    if args.task == 'asr':
+        data = prepare_asr_data(args.data_dir)    
 
-    all_wer = post_process_preds(data)
+        transcripts = model.transcribe(list(data['audio_path']), batch_size=args.batch_size)
+        data['hypothesis'] = transcripts
 
-    write_results(args=args, data=data, score=all_wer)
+        all_wer = post_process_preds(data)
+
+        write_results(args=args, data=data, score=all_wer)
 
 
 if __name__ == "__main__":
