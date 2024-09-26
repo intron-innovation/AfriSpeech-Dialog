@@ -4,8 +4,8 @@ from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
 
 class Whisper(Model):
-    def __init__(self, model_id, **kwargs):
-        super().__init__(**kwargs)
+    def __init__(self, pretrained_model_path, **kwargs):
+        super().__init__(pretrained_model_path, **kwargs)
         
         # Determine the device and dtype
         self.device = "cuda:0" if torch.cuda.is_available() else "cpu"
@@ -13,12 +13,12 @@ class Whisper(Model):
         
         # Load the model
         self.model = AutoModelForSpeechSeq2Seq.from_pretrained(
-            model_id, torch_dtype=self.torch_dtype, low_cpu_mem_usage=True, use_safetensors=True
+            pretrained_model_path, torch_dtype=self.torch_dtype, low_cpu_mem_usage=True, use_safetensors=True
         )
         self.model.to(self.device)
 
         # Load the processor
-        self.processor = AutoProcessor.from_pretrained(model_id)
+        self.processor = AutoProcessor.from_pretrained(pretrained_model_path)
 
         # Set up the pipeline. This does chunked long-form transcription
         self.pipe = pipeline(

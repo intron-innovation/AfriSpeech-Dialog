@@ -33,7 +33,7 @@ def main():
         )
     logger.info("Model loaded successfully")
 
-    logger.info(f"Preprocessing data at {args.data_path}")
+    logger.info(f"Preprocessing data at {args.data_dir}")
     
     if args.task == 'asr':
         data = prepare_asr_data(args.data_dir)    
