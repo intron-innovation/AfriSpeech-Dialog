@@ -20,12 +20,13 @@ def parse_arguments():
     return args
 
 def extract_text_transcript(file_path):
+    transcript = []
     with open(file_path, 'r') as file:
-        content = file.read()
-        
-    cleaned_content = re.sub(r'\d{1,2}:\d{2}\n\w+:\s', '', content)
-    cleaned_content = ' '.join(cleaned_content.split())
-    return cleaned_content
+        for line in file:
+            if line.strip() and not line[0].isdigit() and line.strip()[0] != '(' and ':' in line:
+                #remove the speaker tag and the colon
+                transcript.append(line.split(':', 1)[1].strip())
+    return " ".join(transcript)
 
 def prepare_asr_data(data_dir):
     audio_paths = []
