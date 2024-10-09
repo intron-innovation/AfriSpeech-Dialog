@@ -77,6 +77,26 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 ### Reporting Results
 You can report your results in the following format:
 
-| **Model Name**      | **WER**       | **Contributor** |
-| ------------------- | ------------- |  -------------  |
-| whisper-large-v3     |         |                |
+| Model                                      | WER (%) | Normalized WER (%) |
+|--------------------------------------------|---------|--------------------|
+| mardhiyah/lg_robust_550k                   | 30.73   | 21.97              |
+| mardhiyah/parakeet_fine_tuned              | 29.90   | 14.85              |
+| mardhiyah/whisper_african_lora_merged-30s-ctx | 18.74   | 9.82               |
+| mardhiyah/whisper_medical_lora_merged-30s-ctx | 20.96   | 11.91              |
+| openai/whisper-medium                      | 21.27   | 12.15              |
+| openai/whisper-large-v2                    | 20.82   | 11.83              |
+| openai/whisper-large-v3                    | 20.38   | 10.34              |
+| openai/whisper-large-v3-turbo              | 21.93   | 11.42              |
+| distil-whisper/distil-large-v2             | 25.38   | 17.25              |
+| distil-whisper/distil-large-v3             | 21.20   | 11.51              |
+| Crystalcareai/Whisper-Medicalv1            | 21.21   | 11.51              |
+| Na0s/Medical-Whisper-Large-v3              | 30.51   | 19.91              |
+| nvidia/parakeet-rnnt-1.1b                  | 28.16   | 12.18              |
+| nvidia/parakeet-ctct-1.1b                  | 28.97   | 12.54              |
+| nvidia/parakeet-tdt-1.1b                   | 28.69   | 12.19              |
+| nvidia/canary-1b                           | 22.82   | 14.53              |
+| nvidia/stt_en_conformer_ctc_large          | 35.92   | 20.20              |
+| nvidia/stt_en_fastconformer_transducer_large | 37.69   | 24.88              |
+| soniox                                     | 16.90   | 10.22              |
+| assemblyai                                 | 8.71    | 5.05               |
+| deepgram                                   | 25.10   | 16.86              |
