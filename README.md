@@ -70,12 +70,12 @@ The `data/` directory contains audio samples referenced in `afrispeech_dialog_v1
 
 ---
 
-## Expected Results
+## Results
 
-Results will be saved in the `results/` directory. For ASR experiments, the result CSVs follow the format: `{model_name}/{model_name}_{task}-wer_{WER}_{len(data)}.csv`
+Results will be saved in the `results/` directory. For ASR experiments, the result CSVs follow the format: `{model_name}/{model_name}_{task}-wer_{WER}_{len(data)}.csv`. For diarization experiments, the result CSV follow the format: `{model_name}_diarization_der_{DER}_{len(diarized_data)}.csv`.
 
-### Reporting Results
-You can report your results in the following format:
+### Reported Results
+#### ASR
 
 | Model                                      | WER (%) | Normalized WER (%) |
 |--------------------------------------------|---------|--------------------|
@@ -96,3 +96,11 @@ You can report your results in the following format:
 | soniox                                     | 16.90   | 10.22              |
 | assemblyai                                 | 8.71    | 5.05               |
 | deepgram                                   | 25.10   | 16.86              |
+#### Diarization
+| Model                                      | DER (%) | 
+|--------------------------------------------|---------|
+| deepgram-nova                              | 14.21  |
+| pyannote/speaker-diarization-3.1           | 21.30  |
+| soniox                                     | 20.05  |
+| Revai/reverb-diarization-v2                |   |
+|                                            |   | 
