@@ -79,10 +79,6 @@ You can report your results in the following format:
 
 | Model                                      | WER (%) | Normalized WER (%) |
 |--------------------------------------------|---------|--------------------|
-| mardhiyah/lg_robust_550k                   | 30.73   | 21.97              |
-| mardhiyah/parakeet_fine_tuned              | 29.90   | 14.85              |
-| mardhiyah/whisper_african_lora_merged-30s-ctx | 18.74   | 9.82               |
-| mardhiyah/whisper_medical_lora_merged-30s-ctx | 20.96   | 11.91              |
 | openai/whisper-medium                      | 21.27   | 12.15              |
 | openai/whisper-large-v2                    | 20.82   | 11.83              |
 | openai/whisper-large-v3                    | 20.38   | 10.34              |
