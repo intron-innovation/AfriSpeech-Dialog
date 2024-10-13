@@ -104,3 +104,12 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 | soniox                                     | 20.05  |
 | Revai/reverb-diarization-v2                |   |
 |                                            |   | 
+
+### Summarization
+| Model                                      | BERT_SOCRE(F1) (%) | LLM EVAL (%)|
+|--------------------------------------------|---------|-----------|
+| Gpt4o                            |  |
+| Gpt3.5-turbo                            | 89.99  |66.83|
+| OpenMeditron-Meditron3-8B          | 89.83  |60.50|
+|  Meta-Llama-3.1-8B-Instruct    | |  |
+                                       
