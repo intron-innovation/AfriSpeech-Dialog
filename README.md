@@ -102,8 +102,8 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 | deepgram-nova                              | 14.21  |
 | pyannote/speaker-diarization-3.1           | 21.30  |
 | soniox                                     | 20.05  |
-| Revai/reverb-diarization-v2                |   |
-|                                            |   | 
+| Revai/reverb-diarization-v2                | 26.87  |
+| AssemblyAI                                 | 12.72  | 
 
 
 ### Summarization
