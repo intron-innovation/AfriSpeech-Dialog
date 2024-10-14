@@ -77,25 +77,27 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 ### Reported Results
 #### ASR
 
-| Model                                      | WER (%) | Normalized WER (%) |
-|--------------------------------------------|---------|--------------------|
-| openai/whisper-medium                      | 21.27   | 12.15              |
-| openai/whisper-large-v2                    | 20.82   | 11.83              |
-| openai/whisper-large-v3                    | 20.38   | 10.34              |
-| openai/whisper-large-v3-turbo              | 21.93   | 11.42              |
-| distil-whisper/distil-large-v2             | 25.38   | 17.25              |
-| distil-whisper/distil-large-v3             | 21.20   | 11.51              |
-| Crystalcareai/Whisper-Medicalv1            | 21.21   | 11.51              |
-| Na0s/Medical-Whisper-Large-v3              | 30.51   | 19.91              |
-| nvidia/parakeet-rnnt-1.1b                  | 28.16   | 12.18              |
-| nvidia/parakeet-ctct-1.1b                  | 28.97   | 12.54              |
-| nvidia/parakeet-tdt-1.1b                   | 28.69   | 12.19              |
-| nvidia/canary-1b                           | 22.82   | 14.53              |
-| nvidia/stt_en_conformer_ctc_large          | 35.92   | 20.20              |
-| nvidia/stt_en_fastconformer_transducer_large | 37.69   | 24.88              |
-| soniox                                     | 16.90   | 10.22              |
-| assemblyai                                 | 8.71    | 5.05               |
-| deepgram                                   | 25.10   | 16.86              |
+| Model                                      | WER (%) | Medical WER (%) | Non-Medical WER (%) |
+|--------------------------------------------|---------|-----------------|---------------------|
+| openai/whisper-medium                      | 21.27   | 26.49           | 19.47               |
+| openai/whisper-large-v2                    | 20.82   | 23.74           | 19.81               |
+| openai/whisper-large-v3                    | 20.38   | 23.81           | 19.19               |
+| openai/whisper-large-v3-turbo              | 21.93   | 25.58           | 20.67               |
+| distil-whisper/distil-large-v2             | 25.38   | 30.43           | 23.63               |
+| distil-whisper/distil-large-v3             | 21.20   | 25.67           | 19.58               |
+| Crystalcareai/Whisper-Medicalv1            | 21.21   | 25.76           | 19.63               |
+| Na0s/Medical-Whisper-Large-v3              | 30.51   | 34.90           | 28.97               |
+| nvidia/parakeet-rnnt-1.1b                  | 28.16   | 34.03           | 26.13               |
+| nvidia/parakeet-ctct-1.1b                  | 28.97   | 34.16           | 27.19               |
+| nvidia/parakeet-tdt-1.1b                   | 28.69   | 33.57           | 27.01               |
+| nvidia/canary-1b                           | 22.82   | 27.40           | 21.25               |
+| nvidia/stt_en_conformer_ctc_large          | 35.92   | 41.98           | 33.84               |
+| nvidia/stt_en_fastconformer_transducer_large | 37.69   | 45.36           | 35.05               |
+| soniox                                     | 16.90   | NA              | NA                  |
+| assemblyai                                 | 8.71    | NA              | NA                  |
+| deepgram                                   | 25.10   | NA              | NA                  |
+| nvidia/parakeet-tdt_ctc-110m               | 21.89   | 27.71           | 19.89               |
+
 #### Diarization
 | Model                                      | DER (%) | 
 |--------------------------------------------|---------|
