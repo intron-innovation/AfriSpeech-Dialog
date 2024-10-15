@@ -94,6 +94,7 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 | nvidia/stt_en_conformer_ctc_large          | 35.92   | 41.98           | 33.84               |
 | nvidia/stt_en_fastconformer_transducer_large | 37.69   | 45.36           | 35.05               |
 | nvidia/parakeet-tdt_ctc-110m               | 21.89   | 27.71           | 19.89               |
+| facebook/mms-1b-all                        | 61.75   | 69.04           | 59.22               |
 
 #### Diarization
 | Model                                      | DER (%) | 
