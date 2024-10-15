@@ -93,9 +93,6 @@ Results will be saved in the `results/` directory. For ASR experiments, the resu
 | nvidia/canary-1b                           | 22.82   | 27.40           | 21.25               |
 | nvidia/stt_en_conformer_ctc_large          | 35.92   | 41.98           | 33.84               |
 | nvidia/stt_en_fastconformer_transducer_large | 37.69   | 45.36           | 35.05               |
-| soniox                                     | 16.90   | NA              | NA                  |
-| assemblyai                                 | 8.71    | NA              | NA                  |
-| deepgram                                   | 25.10   | NA              | NA                  |
 | nvidia/parakeet-tdt_ctc-110m               | 21.89   | 27.71           | 19.89               |
 
 #### Diarization
